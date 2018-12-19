@@ -3,6 +3,9 @@ const background = '#5a5a5a';
 
 const getCss = (randomUrl) => {
   const css = `
+    :global(.xterm-viewport:before) {
+      background-color: none !important;
+    }
     :global(body:before) {
         content: ' ';
         display: block;
@@ -16,6 +19,7 @@ const getCss = (randomUrl) => {
         background-image: url('` + randomUrl + `');
         background-repeat: no-repeat;
         background-position: 50% 0;
+        background-color: none !important;
         -ms-background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;

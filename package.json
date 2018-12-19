@@ -1,5 +1,5 @@
 {
-  "name": "hyper-aww",
+  "name": "hyper-aww-fixed",
   "version": "1.1.9",
   "description": "Cute animal gifs as your terminal background",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "cute",
     "animals"
   ],
-  "author": "stokingerl <liamstokinger@gmail.com>",
+  "author": "patrick-hudson <phudson2@gmail.com>",
   "license": "MIT",
   "dependencies": {}
 }
