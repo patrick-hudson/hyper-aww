@@ -3,7 +3,7 @@ const background = '#5a5a5a';
 
 const getCss = (randomUrl) => {
   const css = `
-    body:before {
+    :global(body:before) {
         content: ' ';
         display: block;
         position: absolute;
